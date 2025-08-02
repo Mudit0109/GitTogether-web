@@ -5,7 +5,7 @@ import Chat from "./components/Chat";
 import Connections from "./components/Connections";
 import Feed from "./components/Feed";
 import Footer from './components/Footer';
-import HomePage from "./components/Homepage";
+import HomePage from "./components/HomePage";
 import Login from "./components/Login";
 import Navbar from "./components/Navbar";
 import NotFound from "./components/NotFound";
