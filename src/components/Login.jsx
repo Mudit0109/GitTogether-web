@@ -23,7 +23,7 @@ const Login = () => {
 
       console.log("Login successful:", result.data);
       dispatch(addUser(result.data));
-      return navigate("/feed");
+      return navigate("/");
     } catch (err) {
       const msg = err?.response?.data?.error || "Something went wrong";
       setError(msg);
